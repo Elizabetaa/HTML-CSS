@@ -1,0 +1,18 @@
+
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+a{
+    border-radius: 4%;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+
+p{
+    margin:5%;
+}
+
+.second{
+    background-color: orange;
+}
