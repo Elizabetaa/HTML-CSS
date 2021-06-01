@@ -1,0 +1,19 @@
+html {
+    background: rgb(238, 238,238);
+}
+.gallery{
+    margin: 10px 300px;
+}
+
+.gallery li {
+    display: inline-block;
+    border: 0.4rem solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}

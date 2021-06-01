@@ -1,0 +1,32 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+header *{
+    display: inline;
+}
+nav{
+    display: inline-block;
+}
+title{
+    padding-right: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+a{
+    color: seagreen;
+    text-decoration: none;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+header, main{
+    margin: 20px 100px;
+}
