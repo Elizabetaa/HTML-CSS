@@ -1,0 +1,50 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.viewport {
+  position: relative;
+  height: 100vh;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.viewport.green {
+  background: rgb(25, 94, 175);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 94, 175, 1) 0%,
+    rgba(46, 150, 159, 1) 50%,
+    rgba(66, 204, 162, 1) 100%
+  );
+}
+
+.viewport.orange {
+  background: rgb(169, 53, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(169, 53, 116, 1) 0%,
+    rgba(185, 90, 66, 1) 50%,
+    rgba(210, 130, 19, 1) 100%
+  );
+}
+
+img {
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px 1px #2d2d2d;
+}
+
+.card-icon{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+i{
+    color: white;
+}

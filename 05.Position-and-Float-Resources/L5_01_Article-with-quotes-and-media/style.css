@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+html{
+    size: 16px;
+    line-height: 1.5;
+    font-family:  Helvetica, sans-serif;
+    margin: 50px 500px;
+}
+
+p.site-title{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+img{
+    border-style: solid;
+    border-color: black;
+    padding: 5px; 
+    margin-left: 10px;
+    box-shadow: black 0px 5px 20px;
+
+}
+img.first{
+    float:right;
+}
+
+img.second{
+    float:left;
+}
+p{
+    position: relative;
+}
+blockquote{
+    float: right;
+    width: 300px;
+    font-style: italic;
+    opacity: 0.4;
+}
