@@ -1,0 +1,39 @@
+body {
+  padding: 100px 300px;
+  background-color: rgb(238, 238, 238);
+}
+
+body,
+ul,
+li {
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  size: 1em/1.2;
+}
+
+ul {
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 40px;
+  align-items: center;
+  border: 5px solid black;
+  box-shadow:  0px 0px 7px 0px;
+}
+
+img {
+  margin: 10px;
+}
+
+.gallery ul{
+    justify-content: space-between;
+}
