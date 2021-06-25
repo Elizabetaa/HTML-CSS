@@ -1,0 +1,46 @@
+html {
+  background-color: rgb(238, 238, 238);
+}
+.horizontal th {
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+.horizontal table,
+.horizontal td,
+.horizontal th {
+  border: 1px solid #b3b3b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.horizontal tr:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
+.horizontal tr:nth-child(odd) {
+  background-color: white;
+}
+
+.vertical {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  .vertical {
+    display: block;
+    text-align: left;
+  }
+  .vertical tr {
+    border: 1px solid #b3b3b3;
+  }
+  th,
+  td {
+    padding: 3px;
+  }
+  .horizontal {
+    display: none;
+  }
+}
